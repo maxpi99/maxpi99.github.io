@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Max Pickartz"
   pronouns         : # example: "she/her"  
-  location         : "Cologne"
+  location         : # "Cologne"
   employer         : "University of Cologne"
   uri              : # URL
   email            : "Pickartz@wiso.uni-koeln.de" 
