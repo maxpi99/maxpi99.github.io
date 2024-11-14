@@ -12,7 +12,7 @@ title                    : "Max Pickartz"
 title_separator          : "-"
 name                     : &name "Max Pickartz"
 description              : &description "personal description"
-url                      : https://maxpi99.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://maxpi99.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "maxpi99/maxpi99.github.io"
 
