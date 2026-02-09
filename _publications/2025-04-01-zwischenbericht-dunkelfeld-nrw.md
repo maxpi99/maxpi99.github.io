@@ -1,5 +1,5 @@
 ---
-title: "Zur Entwicklung der Kinder- und Jugenddelinquenz in Nordrhein-Westfalen: Zwischenbericht zum Teilprojekt „Dunkelfeld""
+title: "Zur Entwicklung der Kinder- und Jugenddelinquenz in Nordrhein-Westfalen: Zwischenbericht zum Teilprojekt &bdquo;Dunkelfeld&ldquo;"
 collection: publications
 category: books
 permalink: /publication/2025-zwischenbericht-dunkelfeld-nrw
