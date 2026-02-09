@@ -27,7 +27,7 @@
     {% endif %}
 
     {% if post.collection == 'publications' %}
-      <p>{{ post.citation }}{% if post.paperurl %} <a href="{{ post.paperurl }}">Link to Paper</a>{% endif %}</p>
+      <p>{{ post.citation }}{% if post.paperurl %} <a href="{{ post.paperurl }}">{% if post.category == 'books' %}Link to Report{% else %}Link to Paper{% endif %}</a>{% endif %}</p>
     {% else %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
