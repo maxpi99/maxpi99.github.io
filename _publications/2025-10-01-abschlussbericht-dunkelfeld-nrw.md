@@ -1,6 +1,7 @@
 ---
 title: "Zur Entwicklung der Kinder- und Jugenddelinquenz in Nordrhein-Westfalen: Abschlussbericht zum Teilprojekt &bdquo;Dunkelfeld&ldquo;"
 collection: publications
+category: books
 permalink: /publication/2025-10-01-abschlussbericht-dunkelfeld-nrw
 date: 2025-10-01
 venue: 'Policy Brief No. 0.69'
