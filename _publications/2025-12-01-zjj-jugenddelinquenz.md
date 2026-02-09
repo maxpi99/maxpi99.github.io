@@ -8,4 +8,4 @@ paperurl: 'https://www.dvjj.de/wp-content/uploads/2025/12/ZJJ-4-25_Kroneberg-et-
 citation: 'Kroneberg, Clemens, Seiffert, Fiona, Heyden, Alexandra, and Pickartz, Maximilian. (2025). &quot;Zur Entwicklung der Kinder- und Jugenddelinquenz: Ein 9-Jahres-Vergleich auf Basis einer regionalen Dunkelfeldstudie.&quot; <i>Zeitschrift f&uuml;r Jugendkriminalrecht und Jugendhilfe</i>, 4/25, pp. 288-300.'
 ---
 
-<a href='https://www.dvjj.de/wp-content/uploads/2025/12/ZJJ-4-25_Kroneberg-et-al.pdf'>Download paper here</a>
+<a href='https://www.dvjj.de/wp-content/uploads/2025/12/ZJJ-4-25_Kroneberg-et-al.pdf'>Link to paper</a>
