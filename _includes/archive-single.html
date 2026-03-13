@@ -27,7 +27,7 @@
     {% endif %}
 
     {% if post.collection == 'publications' %}
-      <p>{{ post.citation }}{% if post.paperurl %} <a href="{{ post.paperurl }}">{% if post.category == 'books' %}Link to Report{% else %}Link to Paper{% endif %}</a>{% endif %}</p>
+      <p>{{ post.citation }}{% if post.paperurl %} <a href="{{ post.paperurl }}">{% if post.paperlabel %}{{ post.paperlabel }}{% elsif post.category == 'books' %}Link to Report{% else %}Link to Paper{% endif %}</a>{% endif %}</p>
     {% else %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
@@ -54,15 +54,15 @@
     {% endif %}
 
     {% if post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Link to Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">{% if post.paperlabel %}{{ post.paperlabel }}{% else %}Link to Paper{% endif %}</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Link to Paper</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">{% if post.paperlabel %}{{ post.paperlabel }}{% else %}Link to Paper{% endif %}</a></p>
     {% elsif post.citation and post.slidesurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }}</p>
     {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Link to Paper</a></p>
+      <p><a href=" {{ post.paperurl }} ">{% if post.paperlabel %}{{ post.paperlabel }}{% else %}Link to Paper{% endif %}</a></p>
     {% elsif post.slidesurl %}
       <p>Download <a href="{{ post.slidesurl }}">Download Slides</a></p></p>
     {% endif %}
