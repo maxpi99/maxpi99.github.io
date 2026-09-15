@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Presentations"
 permalink: /talks/
 author_profile: true
 ---
@@ -11,6 +11,11 @@ author_profile: true
 
 {% endif %}
 
+<ul>
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  <li>
+    <strong>{{ post.title }}</strong><br>
+    {{ post.venue }}, {{ post.location }} &mdash; {{ post.date | date: '%B %d, %Y' }}
+  </li>
 {% endfor %}
+</ul>
