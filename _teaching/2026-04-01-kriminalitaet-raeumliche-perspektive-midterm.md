@@ -5,7 +5,7 @@ type: "Undergraduate Seminar"
 permalink: /teaching/2026-04-01-kriminalitaet-raeumliche-perspektive-midterm
 venue: "University of Cologne"
 date: 2026-04-01
-location: "Cologne, Germany"
+location: "Germany"
 ---
 
 Summer Term 2026
