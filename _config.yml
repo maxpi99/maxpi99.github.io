@@ -21,7 +21,7 @@ repository               : "maxpi99/maxpi99.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Maximilian Pickartz"
   pronouns         : # example: "she/her"  
   location         :  "Cologne"
